@@ -6,6 +6,7 @@
  * Course     : GI113 Computer Programming (GI)
  */
 
+using System.Runtime.InteropServices;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Lab02
@@ -42,6 +43,51 @@ namespace Lab02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
+            Console.WriteLine("====Soul Demon RPG Game====");
+            string Name01 = "Raven";
+            int maxhp = 150;
+            int currenthp = 132;
+            bool alive = true;
+            int hpPercentRaven = currenthp * 100 / maxhp;
+            Console.WriteLine("=Status-Raven=");
+            Console.WriteLine($"Name: {Name01}");
+            Console.WriteLine($"Hp: {currenthp} / {maxhp}");
+            Console.WriteLine($"Hp Percent: {hpPercentRaven}%");
+            Console.WriteLine($"Alive: {alive}");
+            Console.WriteLine();
+            Console.WriteLine("=Weapon=");
+            string sword = "Iron Sword";
+            char rankS01 = 'C';
+            float atk = 20.5f;
+            double critrate = 5.79;
+            double cridamage = 30;
+            Console.WriteLine($"Name: {sword}");
+            Console.WriteLine($"Rank: {rankS01}");
+            Console.WriteLine($"ATK: {atk}");
+            Console.WriteLine($"Crit Rate: {critrate}%");
+            Console.WriteLine($"Crit DMG: {cridamage}%");
+            Console.WriteLine();
+            Console.WriteLine("=Enemy=");
+            string enemy01 = "Skeleton";
+            char rank02 = 'B';
+            int currenthp01 = 120;
+            int maxhp01 = 200;
+            int atk01 = 25;
+            int hpPercentS = currenthp01 * 100 / maxhp01;
+            Console.WriteLine($"Name: {enemy01}");
+            Console.WriteLine($"Hp: {currenthp01} / {maxhp01}");
+            Console.WriteLine($"Hp Percent: {hpPercentS}%");
+            Console.WriteLine($"ATK: {atk01}");
+            Console.WriteLine();
+            Console.WriteLine("=Item Drop=");
+            string item = "Bone";
+            int dropchane = 33;
+            char rankS02 = 'C';
+            Console.WriteLine($"Name: {item}");
+            Console.WriteLine($"Rank: {rankS02}");
+            Console.WriteLine($"Drop Chane: {dropchane}%");
+
+
 
 
 
