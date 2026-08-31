@@ -48,11 +48,13 @@ namespace Lab02
             int maxhp = 150;
             int currenthp = 132;
             bool alive = true;
+            int speed = 54;
             int hpPercentRaven = currenthp * 100 / maxhp;
             Console.WriteLine("=Status-Raven=");
             Console.WriteLine($"Name: {Name01}");
             Console.WriteLine($"Hp: {currenthp} / {maxhp}");
             Console.WriteLine($"Hp Percent: {hpPercentRaven}%");
+            Console.WriteLine($"Speed: {speed}");
             Console.WriteLine($"Alive: {alive}");
             Console.WriteLine();
             Console.WriteLine("=Weapon=");
@@ -73,18 +75,25 @@ namespace Lab02
             int currenthp01 = 120;
             int maxhp01 = 200;
             int atk01 = 25;
+            int speed02 = 34;
             int hpPercentS = currenthp01 * 100 / maxhp01;
             Console.WriteLine($"Name: {enemy01}");
             Console.WriteLine($"Hp: {currenthp01} / {maxhp01}");
             Console.WriteLine($"Hp Percent: {hpPercentS}%");
             Console.WriteLine($"ATK: {atk01}");
+            Console.WriteLine($"Speed: {speed02}");
             Console.WriteLine();
             Console.WriteLine("=Item Drop=");
             string item = "Bone";
             int dropchane = 33;
+            int dropAmountlow = 1;
+            int dropAmounthigh = 3;
             char rankS02 = 'C';
+            float sellprice = 10.5f;
             Console.WriteLine($"Name: {item}");
             Console.WriteLine($"Rank: {rankS02}");
+            Console.WriteLine($"Sell price: {sellprice}");
+            Console.WriteLine($"Drop Amount: {dropAmountlow}-{dropAmounthigh}");
             Console.WriteLine($"Drop Chane: {dropchane}%");
 
 
