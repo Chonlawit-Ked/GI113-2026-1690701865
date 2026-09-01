@@ -1,7 +1,7 @@
 /*
- * Student ID :
- * Name       :
- * Section    :
- * No.        :
+ * Student ID : 1690701865
+ * Name       :Chonlawit Kedsa
+ * Section    : 129C
+ * No.        : 1
  * Course     : GI113 Computer Programming (GI)
  */
